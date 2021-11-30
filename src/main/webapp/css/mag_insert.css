@@ -1,0 +1,81 @@
+.location {
+    margin-bottom: 30px;
+}
+.button {
+    width: 820px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #47acf1;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 1px solid #0c89de;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    background: url(../images/添加.png) no-repeat left #47acf1;
+    background-size: auto 75%;
+    font-size: 14px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.mess {
+    width: 750px;
+    height: 380px;
+    background-color: #f6fafd;
+    border: 1px solid #e6eaf6;
+    border-radius: 8px;
+    display: none;
+    margin-left: 50px;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+.Sno,.Sname,.Tno,.Tname,.birth,.Cno,.Cname,.Croom,.Ctime{
+    width: 272px;
+    height: 28px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    margin: 10px 0;
+}
+select {
+    width: 272px;
+    height: 28px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    margin: 10px 0;
+}
+#男,#女 {
+    margin: 10px 0;
+    vertical-align: middle;
+}
+#man,#woman{
+    margin: 10px 0;
+    vertical-align: middle;
+}
+.add,.reset{
+    margin-left: 75px;
+    width: 50px;
+    height: 30px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+.day {
+    width: 100px;
+}
+.start,.end {
+    width: 50px;
+    height: 28px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    margin: 10px 0;
+}

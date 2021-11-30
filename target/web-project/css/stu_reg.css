@@ -1,0 +1,35 @@
+.title {
+    height: 42px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 42px;
+    color: rgb(44, 151, 229);
+    font-weight: 700;
+}
+.con {
+    width: 1260px;
+    height: 520px;
+    margin: 3px auto;
+    background-color: #f6fafd;
+    border: 1px solid #e6eaf6;
+    border-radius: 8px;
+    line-height: 30px;
+    font-size: 12px;
+}
+table {
+    width: 1260px;
+    margin-top: 20px; 
+    text-align: center;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+table th {
+    border-right: 2px solid rgba(204, 211, 214, 0.4);
+}
+table tr:nth-child(odd){
+    background: #ebebf0;
+}
+table tr:hover {
+    background-color: rgb(236, 253, 203);
+}
+

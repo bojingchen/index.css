@@ -1,0 +1,72 @@
+.con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1260px;
+    height: 540px;
+    margin: 3px auto;
+    background-color: #f6fafd;
+    border: 1px solid #e6eaf6;
+    border-radius: 8px;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.con_l,.con_r {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #e6eaf6;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.con_l h2,.con_r h2 {
+    margin-top: 10px;
+    color: #0042a8;
+}
+.con_l ul {
+    margin-top: 10px;
+}
+.con_l ul li:nth-child(odd){
+    background: #ebebf0;
+}
+.con_l ul li:hover {
+    background-color: rgb(236, 253, 203);
+}
+input {
+    width: 180px;
+    height: 27px;
+    text-indent: 10px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.Sname,.Sno,.Ssex,.year,.dept,.class,.Tno,.Tname,.Tsex {
+    cursor:not-allowed;
+}
+.keep,.reset {
+    margin-top: 15px;
+    width: 50px;
+    height: 30px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    text-indent: 0px;
+}
+form {
+    margin-left: -20px;
+}
+.submit {
+    margin-left: -20px;
+}  
+.reset{
+    margin-left: 20px;
+}
+

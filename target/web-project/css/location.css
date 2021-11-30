@@ -1,0 +1,22 @@
+.location {
+    width: 1260px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #f6fafd;
+    border: 1px solid #e6eaf6;
+    border-radius: 8px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.location strong {
+    width: 142px;
+    height: 30px;
+    margin-left: 30px;
+    background: url(../images/页码.png) no-repeat left;
+    background-size: auto 100%;
+    padding-left: 25px;
+}
+.location span {
+    color: #2179a9;
+    font-weight: 700;
+}

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(44, 151, 229);
+    line-height: 7vh;
+    font-size: 14px;
+}
+.header .icon {
+    float: left;
+    margin-left: 30px;
+    height: 48px;
+    width: 48px;
+    background: url(../images/房子.png) no-repeat center;
+    background-size: 75% 75%;
+}
+.header h1{
+    float: left;
+    color: #fff;
+    width: 300px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.header a {
+    float: right;
+    margin-right: 40px;
+    margin-top: 9px;
+    width: 45px;
+    height: 30px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+}
+.header p {
+    float: right;
+    margin-right: 15px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+.header .username {
+    color: yellow;
+    margin: 0 5px;
+}
+.time {
+    height: 4vh;
+    width: 100vw;
+    line-height: 4vh;
+    font-size: 12px;
+    color: #808589;
+    background-color: #e0edf6;
+}
+.time .icon {
+    float: left;
+    height: 28px;
+    width: 28px;
+    background: url(../images/时间.png) no-repeat center;
+    background-size: 75% 75%;
+    margin-left: 40px;
+}
+.time .now {
+    float: left;
+    margin-left: 5px;
+}
+.time .tips {
+    float: right;
+    margin-right: 40px;
+}
+.main {
+    display: flex;
+    width: 100vw;
+    height: 84vh;
+}
+.left {
+    width: 168px;
+    background-color: #eee;
+    margin-right: 10px;
+    border-right: rgb(44, 151, 229) 1px solid;
+}
+.left .leftH2 {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    width: 140px;
+    margin: 10px 14px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(44, 151, 229);
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 4px 4px rgb(212,212,212);
+}
+.H2left {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #035384;
+}
+.H2right {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #035384;
+}
+.func {
+    margin-top: 20px;
+}
+.func li {
+    text-align: center;
+    cursor: pointer;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: solid 1px #ccc;
+    border-radius: 5px;
+}
+.func li a {
+    display: inline-block;
+    color: #0042a8;
+    width: 140px;
+    height: 30px;
+}
+.func li:hover {
+    background-color: rgb(134, 196, 240);
+}
+.func .current {
+    background-color: rgb(134, 196, 240);
+}
+.right {
+    width: 85%;
+}
+
+.footer {
+    height: 5vh;
+    width: 100vw;
+    line-height: 5vh;
+    background-color: rgb(44, 151, 229);
+    text-align: center;
+    color: #fff;
+}
